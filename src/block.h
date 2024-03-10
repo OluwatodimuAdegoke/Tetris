@@ -11,6 +11,7 @@ class Block{
         int id;
         map<int, vector<Position>> cells;
         void Draw();
+        
     private:
         int cellSize;
         int rotationState;
