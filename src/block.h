@@ -8,6 +8,8 @@ using namespace std;
 class Block{
     public:
         Block();
+        void Move(int rows, int columns);
+        std::vector<Position> GetCellPositions();
         int id;
         map<int, vector<Position>> cells;
         void Draw();
@@ -16,4 +18,7 @@ class Block{
         int cellSize;
         int rotationState;
         vector<Color> colors;
+
+        int rowOffset;
+        int columnOffset;
 };

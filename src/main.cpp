@@ -13,6 +13,7 @@ int main()
 
     Grid grid = Grid();
     SBlock block = SBlock();
+    block.Move(4,3);
 
     while(!WindowShouldClose()){
         BeginDrawing();
