@@ -1,13 +1,12 @@
 # Tetris Game
 
 ## Description:
-This project is a Tetris game implemented in [insert programming language here]. It follows the classic gameplay of Tetris where players manipulate falling tetrominoes to create complete horizontal lines, which disappear and score points.
+This project is a Tetris game implemented in C++. It follows the classic gameplay of Tetris, where players manipulate falling tetrominoes to create complete horizontal lines, which disappear and score points.
 
 ## Features:
 - Classic Tetris gameplay
 - Falling tetromino pieces
 - Line clearing and scoring system
-- Level progression
 - Game over detection
 
 ## How to Play:
@@ -20,15 +19,8 @@ This project is a Tetris game implemented in [insert programming language here].
 1. Clone the repository.
 2. Compile and run the game using [specific instructions for your programming language or environment].
 
-## Technologies Used:
-- [Programming Language]
-- [Any specific libraries or frameworks]
+## Credit
+<p align="center">
+🎥 <a href="https://www.youtube.com/watch?v=wVYKG_ch4yM">Video Tutorial on YouTube</a>
+</p>
 
-## Screenshots:
-Tetris Screenshot
-
-## Credits:
-This Tetris game was developed by Oluwatodimu Adegoke.
-
-## License:
-This project is licensed under the [License Name].
