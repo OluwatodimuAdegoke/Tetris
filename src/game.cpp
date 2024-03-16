@@ -9,12 +9,12 @@ Game::Game(){
 }
 
 Block Game::GetRandomBlock(){
-    if(blocks.empty()){
-        blocks = GetAllBlocks();
-    }
+    // if(blocks.empty()){
+    //     blocks = GetAllBlocks();
+    // }
     int randomIndex = rand() % blocks.size();
     Block block = blocks[randomIndex];
-    blocks.erase(blocks.begin() + randomIndex);
+    // blocks.erase(blocks.begin() + randomIndex);
 
     return block;
 }
@@ -87,6 +87,7 @@ void Game::LockBlock()
     }
     currentBlock = nextBlock;
     nextBlock = GetRandomBlock();
+    grid.ClearFullRows();
 }
 
 void Game::RotateBlock()
