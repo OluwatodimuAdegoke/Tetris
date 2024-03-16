@@ -26,10 +26,10 @@ int main()
 
         game.HandleInput();
         // Move the block downward slowly
-        if(EventTriggered(0.2)){
+        if(EventTriggered(0.1)){
             game.MoveBlockDown();
         }
-        
+
         BeginDrawing();
         ClearBackground(DARKBLUE);
         game.Draw();
