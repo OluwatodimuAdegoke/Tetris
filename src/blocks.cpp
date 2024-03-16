@@ -17,7 +17,7 @@ class LBlock : public Block{
 class IBlock : public Block{
     public:
         IBlock(){
-            id = 1;
+            id = 2;
             cells[0] = {Position(1,0), Position(1,1), Position(1,2), Position(1,3)};
             cells[1] = {Position(0,2), Position(1,2), Position(2,2), Position(3,2)};
             cells[2] = {Position(2,0), Position(2,1), Position(2,2), Position(2,3)};
@@ -30,7 +30,7 @@ class IBlock : public Block{
 class JBlock : public Block{
     public:
         JBlock(){
-            id = 1;
+            id = 3;
             cells[0] = {Position(0,0), Position(1,0), Position(1,1), Position(1,2)};
             cells[1] = {Position(0,1), Position(0,2), Position(1,1), Position(2,1)};
             cells[2] = {Position(1,0), Position(1,1), Position(1,2), Position(2,2)};
@@ -43,7 +43,7 @@ class JBlock : public Block{
 class TBlock : public Block{
     public:
         TBlock(){
-            id = 1;
+            id = 4;
             cells[0] = {Position(0,1), Position(1,0), Position(1,1), Position(1,2)};
             cells[1] = {Position(0,1), Position(1,1), Position(1,2), Position(2,1)};
             cells[2] = {Position(1,0), Position(1,1), Position(1,2), Position(2,1)};
@@ -56,7 +56,7 @@ class TBlock : public Block{
 class OBlock : public Block{
     public:
         OBlock(){
-            id = 1;
+            id = 5;
             cells[0] = {Position(0,0), Position(0,1), Position(1,0), Position(1,1)};
             Move(0,4);
         }
@@ -66,7 +66,7 @@ class OBlock : public Block{
 class SBlock : public Block{
     public:
         SBlock(){
-            id = 1;
+            id = 6;
             cells[0] = {Position(0,1), Position(0,2), Position(1,0), Position(1,1)};
             cells[1] = {Position(0,1), Position(1,1), Position(1,2), Position(2,2)};
             cells[2] = {Position(1,1), Position(1,2), Position(2,0), Position(2,1)};
@@ -78,7 +78,7 @@ class SBlock : public Block{
 class ZBlock : public Block{
     public:
         ZBlock(){
-            id = 1;
+            id = 7;
             cells[0] = {Position(0,0), Position(0,1), Position(1,1), Position(1,2)};
             cells[1] = {Position(0,2), Position(1,1), Position(1,2), Position(2,1)};
             cells[2] = {Position(1,0), Position(1,1), Position(2,1), Position(2,2)};

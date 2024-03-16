@@ -23,11 +23,13 @@ int main()
     Game game = Game();
 
     while(!WindowShouldClose()){
+
         game.HandleInput();
         // Move the block downward slowly
         if(EventTriggered(0.2)){
             game.MoveBlockDown();
         }
+        
         BeginDrawing();
         ClearBackground(DARKBLUE);
         game.Draw();
