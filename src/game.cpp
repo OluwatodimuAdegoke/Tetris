@@ -42,6 +42,9 @@ void Game::HandleInput(){
     case KEY_DOWN:
         MoveBlockDown();
         break;
+    case KEY_UP:
+        RotateBlock();
+        break;
     }
 }
 
@@ -61,6 +64,14 @@ void Game::MoveBlockDown(){
     currentBlock.Move(1,0);
     if(isBlockOutside()){
         currentBlock.Move(-1,0);
+    }
+}
+
+void Game::RotateBlock()
+{
+    currentBlock.Rotate();
+    if(isBlockOutside()){
+        currentBlock.UndoRotation();
     }
 }
 

@@ -10,6 +10,8 @@ class Block{
         Block();
         void Move(int rows, int columns);
         std::vector<Position> GetCellPositions();
+        void Rotate();
+        void UndoRotation();
         int id;
         map<int, vector<Position>> cells;
         void Draw();
