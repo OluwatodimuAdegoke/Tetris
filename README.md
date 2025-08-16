@@ -17,7 +17,7 @@ This project is a Tetris game implemented in C++. It follows the classic gamepla
 
 ## Installation:
 1. Clone the repository.
-2. Compile and run the game using [specific instructions for your programming language or environment].
+2. Compile and run the game
 
 ## Credit
 <p align="center">
